@@ -1,0 +1,23 @@
+{
+  "name": "parse-server-and-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js localhost 8080"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "parse": "3.4.1",
+    "parse-dashboard": "4.0.0",
+    "parse-server": "5.1.1",
+    "parse-smtp-template": "2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
